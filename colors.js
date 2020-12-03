@@ -19,7 +19,7 @@
 			HEX:   {HEX: [0, 16777215]} // maybe we don't need this
 		},
 
-		_Math = window.Math,
+		_Math = Math,
 		_round = _Math.round,
 
 		_instance = {},

@@ -1,6 +1,6 @@
 (function (root, factory) {
     if (typeof exports === 'object') {
-        module.exports = factory(root, require('jquery'), require('colors'));
+        module.exports = factory(root, require('jquery'), require('./colors'));
     } else if (typeof define === 'function' && define.amd) {
         define(['jquery', 'colors'], function (jQuery, Colors) {
             return factory(root, jQuery, Colors);
